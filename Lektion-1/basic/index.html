@@ -16,6 +16,24 @@
 <body>
    <section id="header" class="d-flex justify-content-center"></section>
    
+   
+   <section id="formSection" class="container mt-5">
+      <div id="form">
+         <label for="firstName">Förnamn:</label><br>
+         <input id="firstName" class="form-control" type="text" placeholder="skriv ditt förnamn..">
+         <div id="firstName-error" class="ms-2 mb-4 text-danger"></div>
+
+         <label for="lastName">Efternamn:</label><br>
+         <input id="lastName" class="form-control" type="text" placeholder="skriv ditt efternamn..">
+         <div id="lastName-error" class="ms-2 mb-4 text-danger"></div>
+
+         <label for="email">Email:</label><br>
+         <input id="email" class="form-control" type="text" placeholder="skriv din email..">
+         <div id="email-error" class="ms-2 mb-4 text-danger"></div>
+
+         <button id="sendBtn" type="submit" class="btn btn-primary">Skicka</button>
+      </div>
+   </section>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
    <script src="js/script.js"></script>
 </body>
